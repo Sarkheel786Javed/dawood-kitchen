@@ -1,0 +1,51 @@
+.status{
+    height: 10px;
+    width: 70%;
+    background-color: rgba(200, 200, 200, 0.239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.step{
+    background-color: rgb(72, 148, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.status_success{
+ width: 30px;
+ height: 30px;
+ background-color: rgba(200, 200, 200, 0.239);
+ border-radius: 15px;
+}
+.step_success{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
+}
+.nodata_found{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.status_step{
+    width: 100px;
+    height: 50px;
+    background-color: orangered;
+    font-size: 12px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

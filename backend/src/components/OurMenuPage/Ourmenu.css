@@ -1,0 +1,18 @@
+.produce_name{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+
+}
+.produce_description{
+    color: aliceblue;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 270px;
+    height: 20px;
+
+}
+.quantity_select{
+    width: 50%;
+}
