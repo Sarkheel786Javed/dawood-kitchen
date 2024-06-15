@@ -44,9 +44,9 @@ app.use("/api/auth/cart", AddToCart);
 app.use("/api/auth/checkout", CheckOut);
 app.use("/api/auth/message", Message);
 //PORT1
-const PORT =  8080;
+const PORT = process.env.PORT || 8080;
 
 //run listen
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
   console.log(`Server Running on http://localhost:${PORT}`);
 });
