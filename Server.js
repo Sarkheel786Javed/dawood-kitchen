@@ -49,6 +49,9 @@ app.use("/api/auth/message", Message);
 // Get the port from environment variables or default to 8080
 const PORT = process.env.PORT || 8080;
 
+app.get("/", (req, res) => {
+  res.send("Connected to server!"); // You can modify this message as needed
+});
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server Running on http://localhost:${PORT}`);
